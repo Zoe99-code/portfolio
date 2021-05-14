@@ -1,58 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About</title>
-    <link rel="stylesheet" href="./styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./styles.css" />
+    <script
+      src="https://kit.fontawesome.com/8c3af9fd89.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet"> 
+  </head>
+  <body>
+    <div class="about-container">
+      <nav class="navbar">
+      <ul class="navbar-links">
+        <li class="navbar-link">
+          <a href="./index.html" class="navbar-anchor">Home</a>
+        </li>
+        <li class="navbar-link">
+          <a href="./about-page.html" class="navbar-anchor">About</a>
+        </li>
+        <li class="navbar-link">
+          <a href="./portfolio-page.html" class="navbar-anchor">Portfolio</a>
+        </li>
+        <li class="navbar-link">
+          <a href="./testimonial-page.html" class="navbar-anchor"
+            >Testimonial</a
+          >
+        </li>
+        <li class="navbar-link">
+          <a href="./contact-page.html" class="navbar-anchor">Contact</a>
+        </li>
+      </ul>
+      <button class="navbar-button" onclick="toggleNavbar()">
+        <i class="fas fa-bars"></i>
+      </button>
+    </nav>
     <div class="About">
-    <h1>About</h1>
-    <div class="about-details">
-        <img class="aboutpage-image" src="https://media-exp1.licdn.com/dms/image/C4D03AQG52D6gn-zFVA/profile-displayphoto-shrink_800_800/0/1590784428900?e=1626307200&v=beta&t=AUvxS84nxM8ZhSuKsQV2fSxJk9a9TbavJPGoIaTAyH0">
-    <div>
-        <h2>Hi, My Name is Zoe Strachan</h2>
-        <h3>Aspiring Software Developer</h3><br>
-        <p>With a resilient work ethic and the tenacity 
-          of a full stack developer I will strive not only to 
-          take in all the relevant skills through the help of expert guidance 
-          but more importantly to apply those skills accordingly.</p> 
+      <h1>About</h1>
+      <div class="about-details">
+        <img
+          class="aboutpage-image"
+          src="https://media-exp1.licdn.com/dms/image/C4D03AQG52D6gn-zFVA/profile-displayphoto-shrink_800_800/0/1590784428900?e=1626307200&v=beta&t=AUvxS84nxM8ZhSuKsQV2fSxJk9a9TbavJPGoIaTAyH0"
+        />
+        <div>
+          <h2>Zoe Strachan, here.</h2>
+          <h3>Future Software Developer</h3>
+          <p>
+            With a resilient work ethic and the tenacity of a full stack
+            developer and drive to not only to take in all the relevant skills
+            through the help of expert guidance but more importantly to apply
+            those skills accordingly.
+          </p>
           <ul class="details">
             <li class="details1">Birthday : 08-05-1999</li>
-            <li class="details2">Phone : 0629184728</li>
-            <li class="details3">Email Address : lizzystrachan99@gmail.com</li>
+            <li class="details2">Email Address : lizzystrachan99@gmail.com</li>
+            <li class="details3">Phone : 0629184728 </li>
             <li class="details4">Location : Cape Town</li>
             <li class="details5">Languages : Englsh, Afrikaans</li>
-            <li class="details6">Hobbies : Reading, Meditating, Listening to music</li><br>
-            <a href="https://github.com/Zoe99-code" target="_blank" class="button">Github</a>
-             </ul>
+            <li class="details6"> Hobbies : Reading, Meditating, Listening to music</li>
+            <br>
+            <a
+              href="https://github.com/Zoe99-code"
+              target="_blank"
+              class="about-button"
+              >Github</a
+            >
+            <a href="./Curriculum Vitae [Revised].docx.pdf" download class="about-button">Download CV</a>
+          </ul>
+        </div>
+      </div>
     </div>
+
+    <h2>Skills</h2>
+    <div class="skills-content">
+      <i class="fab fa-css3"></i>
+      <i class="fab fa-html5"></i>
+      <i class="fab fa-python"></i>
+      <i class="fab fa-js-square"></i>
+    </div>
+
+    <h2>Education</h2>
+    <div class="education-info">
+      <div class="card-content">
+        <h1>Table View High School 2013-2017</h1>
+        <p>
+          Matriculated from Table View High School in 2017 with a Bachelor's
+          pass.
+        </p>
+      </div>
+
+      <div class="card-content">
+        <h1>University of the Western Cape 2018-2020</h1>
+        <p>
+          Attended the University of the Western Cape from 2018-2020 studying
+         a Bachelor of Arts Degree [BA; 2101] course majors having been
+          English as well as Language and Communication Studies, all
+          electives/minors included; French, Ethics, Psychology, and History.
+        </p>
+      </div>
+
+      <div class="card-content">
+        <h1>Life Choices Academy 2021-</h1>
+        <p>
+          Currently a part of the 2021 cohort at Life Choices Academy studying
+          Software Development.
+        </p>
+      </div>
+    </div>
+
+    <h2>Experience</h2>
+    <div class="experience-container">
+      <div class="experience-line"></div>
+      <div
+        data-aos="fade-right"
+        data-aos-offset="200"
+        data-aos-easing="ease-in-sine"
+        class="timeline-item item1"
+      >
+        <div>
+          <h2>Work Experience</h2>
+          <h3>2018-2020</h3>
+          <p>Occupation : Full Time Student</p>
+        </div>
+      </div>
+      <div
+        data-aos="fade-left"
+        data-aos-offset="200"
+        data-aos-easing="ease-in-sine"
+        class="timeline-item item2"
+      >
+        <div>
+          <h2>Work Experience</h2>
+          <h3>2021</h3>
+          <p>Occupation : Full Time Student.</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer footer-about">
+      <h3 id="zoe">Made By Zoe Strachan</h3>
+      <div class="footer-icons">
+        <a
+          href="https://www.linkedin.com/in/zoe-strachan-bb49881a0/"
+          target="_blank"
+          ><i class="fab fa-linkedin" id="linkedin"></i
+        ></a>
+        <a href="https://github.com/Zoe99-code" target="_blank"
+          ><i class="fab fa-github" id="github"></i
+        ></a>
+        <a href="https://codepen.io/zoe99-code"
+          ><i class="fab fa-codepen" id="codepen"></i
+        ></a>
+      </div>
     </div>
     </div>
     
-      <h2>Skills</h2>
-     <div class="skills-content">
-       <h3>CSS</h3>
-       <h3>HTML</h3>
-       <h3>Python</h3>
-       </div>
-
-      <h2>Education</h2>
-      <div class="education-info">
-        <div class="card-content">
-          <h1>University of the Western Cape 2018-2020</h1>
-          <p>
-            Attended the University of the Western Cape from 2018-2020 studying their Bachelor of Arts Degree [BA; 2101] course
-            majors having been English as well as Language and Communication Studies, all
-            electives/minors included; French, Ethics, Psychology, and History. 
-           </p>
-      </div>
-      </div>
-
-      <h2>Experience</h2>
-      <div class="work-experience">
-     </div>
-</body>
+    <script src="./javascript.js"></script>
+  </body>
 </html>

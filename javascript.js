@@ -7,7 +7,7 @@ $(document).ready(function () {
     dots: false,
     autoplay: true,
     items: 1,
-    margin: 0,
+    margin: 5,
     stagePadding: 0,
   });
 });
